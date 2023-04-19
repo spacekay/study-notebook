@@ -9,3 +9,5 @@ description: 'Task: Shop Backend REST API'
     \-> 두군데 다 스프링 버전(3.0 -> Java 17 이상)에 맞게 설정하기
     * Project Structure
     * Settings - Build \~ - Build Tools - Gradle
+
+TBU
