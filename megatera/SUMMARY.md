@@ -14,7 +14,6 @@
   * [Day 3 Collection Pattern](week-2-rest-api/day-3-collection-pattern.md)
   * [Day 4 Collection Pattern 적용](week-2-rest-api/day-4-collection-pattern.md)
   * [Day 5 Spring Web MVC로 구현](week-2-rest-api/day-5-spring-web-mvc.md)
-  * [Day 5-1 Spring Web MVC로 구현](week-2-rest-api/day-5-spring-web-mvc-1.md)
   * [Task: Shop Backend REST API](week-2-rest-api/task-shop-backend-rest-api.md)
 
 ## Additional study
