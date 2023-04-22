@@ -4,6 +4,8 @@ description: 'Task: Shop Backend REST API'
 
 # Task: Shop Backend REST API
 
+다른 것 없이 주어진 기능을 REST API로 설계하여 간략하게 구현하는 연습
+
 {% embed url="https://github.com/megaptera-kr/backend-survival-week02/pull/20" %}
 
 #### 주의사항
