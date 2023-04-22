@@ -4,6 +4,8 @@ description: 'Task: Shop Backend REST API'
 
 # Task: Shop Backend REST API
 
+{% embed url="https://github.com/megaptera-kr/backend-survival-week02/pull/20" %}
+
 #### 주의사항
 
 * Gradle Build 시 JDK 버전 체크\
