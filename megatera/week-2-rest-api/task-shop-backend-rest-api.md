@@ -34,5 +34,16 @@ description: 'Task: Shop Backend REST API'
 * @RequestAttribute annotation을 devroad 시작 이후 처음으로 사용하게 되었음
 * 추후 신규 API 개발 시 Custom error handler를 상세하게 설계해 보아도 좋겠다고 생각하였음
 
+#### 해설과의 차이점
 
+* user -> users
+  * user도 복수로 쓰기
+* 장바구니에 상품 추가 `POST /cart/items`
+* 장바구니에 상품 삭제 `DELETE /cart/items/{id}`
+* 장바구니 (담긴 상품 목록) `GET /cart`
+  * cart를 맨 앞에 적어주는 것이 맞았다.
+  * products -> items (상품과 카트 안의 아이템을 분리하기)
+* 주문하기 `POST /orders`
+  * orderDTO 만들어서 POST로처리 -> 주문 관련 설정 같은 것이 있을 수도 있으니...
+* 주문 목록 `GET /orders`
 
