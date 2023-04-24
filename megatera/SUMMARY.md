@@ -15,6 +15,12 @@
   * [Day 4 Collection Pattern 적용](week-2-rest-api/day-4-collection-pattern.md)
   * [Day 5 Spring Web MVC로 구현](week-2-rest-api/day-5-spring-web-mvc.md)
   * [Task: Shop Backend REST API](week-2-rest-api/task-shop-backend-rest-api.md)
+* [Week 3 - DTO, JSON, CORS](week-3-dto-json-cors/README.md)
+  * [Day 1 DTO](week-3-dto-json-cors/day-1-dto.md)
+  * [Day 2 Serialization](week-3-dto-json-cors/day-2-serialization.md)
+  * [Day 3 Jackson ObjectMapper](week-3-dto-json-cors/day-3-jackson-objectmapper.md)
+  * [Day 4 CORS](week-3-dto-json-cors/day-4-cors.md)
+  * [Task: Board API using DTO](week-3-dto-json-cors/task-board-api-using-dto.md)
 
 ## Additional study
 
