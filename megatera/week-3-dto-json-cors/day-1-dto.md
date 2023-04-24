@@ -7,6 +7,7 @@ description: Day 1 DTO
 ### DTO
 
 * Data Transfer Object
+* [https://martinfowler.com/eaaCatalog/dataTransferObject.html](https://martinfowler.com/eaaCatalog/dataTransferObject.html)
 * Tier(주로 F/E - B/E) 간 소통을 위해서는 데이터를 운반하는 수단이 필요
 * 오로지 데이터를 담기 위해 쓰이는 **데이터 덩어리**
 * Java에서는 어쩔 수 없이 전통적으로 Class로 표현해 왔으나, 최근에는 Record라는 형태로 표현 가능\
