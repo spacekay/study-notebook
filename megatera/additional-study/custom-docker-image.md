@@ -1,5 +1,5 @@
 ---
-description: additional study - docker (2023.4.11)
+description: additional study - docker (2023. 4. 11. ~ 2023. 4. 13.)
 ---
 
 # Custom Docker Image
