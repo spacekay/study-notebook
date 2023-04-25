@@ -15,7 +15,6 @@ description: Day 3 Jackson ObjectMapper
 
 ```json
 // JSON 스키마로 사람을 표현
-
 {
     "id": 94,
     "name": "spacekay",
