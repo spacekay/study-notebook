@@ -66,7 +66,7 @@ public class PeopleDto {
     }
     
     // 네이밍룰 조율 등을 위해 필요한 경우 @JsonProperty annotation 활용 
-    @JsonProperty("GroupTerm") 
+    @JsonProperty("groupTerm") 
     public Integer getTerm() {
         return this.term;
     }   
