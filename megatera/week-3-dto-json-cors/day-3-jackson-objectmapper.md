@@ -22,7 +22,6 @@ description: Day 3 Jackson ObjectMapper
     "group": "backend survival",
     "term": 3
 }
-
 ```
 
 #### Java code (Class)
@@ -77,8 +76,9 @@ public class PeopleDto {
 
 ## 구현 과정 관련 메모
 
-### Spring DI (**Dependency Injection**)
+### Spring DI&#x20;
 
+* Dependency Injection
 * Spring 부팅 시 @Component annotation이 붙은 객체들을 모두 스캔함\
   (주로 @RestController 등 @Controller 객체들)
 * 이때 Component들의 객체 의존성을 파악하여 해당 객체들에 선언된 객체들을 외부(스프링 환경 - IoC Container라고 부름)에서 먼저 생성한 뒤, 주입받는 객체들을 나중에 만들면서 생성자를 통해 주입하여 줌
