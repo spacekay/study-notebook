@@ -37,7 +37,7 @@ windows.success = (data) => {
 }
 </script>
 <script src="http://localhost:8080/posts?callback=success"></script>
-// 서버에서는 callback parameter 값을 success로 받고, 그에 맞는 함수의JavaScript 코드를 전송
+// 서버에서는 callback parameter 값을 success로 받고, 그에 맞는 함수의 JavaScript 코드를 전송
 // DTO 형태로 JSON을 전송하는 것이 아닌 JavaScript 코드를 B/E에서 보내주어야 함
 ```
 
@@ -94,6 +94,6 @@ public Class CorsConfig implements WebMvcConfigurer {
 ```
 
 * 관련 팁
-  * Origin 정의할 때 \*(wildcard)를 사용하면 모든 origin을 허용함
+  * Origin 정의할 때 \*(wildcard character)를 사용하면 모든 origin을 허용함
   * @CrossOrigin 사용 시 parameter를 안 넣으면 자동으로 \* 적용
   * WebMvcConfigurer에서 allowedOrigins()를 쓰거나, HttpServletResponse에서 addHeader()를 쓰는 경우에는 \* 하나는 꼭 입력해 주어야 함 (아무것도 안쓰는 것 X)
