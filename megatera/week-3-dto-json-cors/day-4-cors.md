@@ -21,7 +21,7 @@ GET /posts HTTP1.1 /* 어차피 path는 Host나 Origin과 따로 정의하므로
 Host: http://localhost:8080 /* REST API */
 Origin: http://localhost:3000 /* Frond-end */
 
-// 이 경우 Client에서CORS error 발생
+// 이 경우 Client에서 CORS error 발생
 ```
 
 ### 과거 Same-Origin Policy를 우회했던 방식 -> \<script> 활용
