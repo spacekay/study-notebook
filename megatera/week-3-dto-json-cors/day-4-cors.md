@@ -24,7 +24,7 @@ Origin: http://localhost:3000 /* Frond-end */
 // 이 경우 Client에서 CORS error 발생
 ```
 
-### 과거 Same-Origin Policy를 우회했던 방식 -> \<script> 활용
+### 과거 Same-Origin Policy를 우회했던 방식 : \<script> 활용
 
 * \<script> 태그로 받은 JavaScript 코드로 실행한 내용은 동일 출처를 따지지 않음
   * 서버로부터 callback 함수 코드를 받아 그것을 처리한 결과를 출력함
@@ -50,7 +50,7 @@ windows.success = (data) => {
 
 * Cross-Origin Resource Sharing  -> 서로 다른 오리진이 리소스를 나눔
   * 웹 브라우저에서는 이를 잠재적인 보안 위협으로 보고 엄격하게 관리함
-* 개발 중 CORS 에러 발생 시 해결 방법: Backend 응답 헤더에 'Access-Control-Allow-Origin' 속성을 포함시킴
+* 개발 중 CORS 에러 발생 시 해결 방법 →  Backend 응답 헤더에 'Access-Control-Allow-Origin' 속성을 포함시킴
   * 서버에서 '여기에서 요청했다면 괜찮다'고 웹 브라우저에 알려주는 효과
 * Spring Web에서의 CORS 구현
 
@@ -80,7 +80,6 @@ public class PostController {
    1. [https://w97ww.tistory.com/82](https://w97ww.tistory.com/82)
 
 ```java
-@Bean
 @Configuration
 public Class CorsConfig implements WebMvcConfigurer {
     @Override
@@ -91,6 +90,8 @@ public Class CorsConfig implements WebMvcConfigurer {
                 .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS");
     }
 }
+
+// Application class 안에 subclass로 만드는 경우에는 @Bean 으로 지정함
 ```
 
 * 관련 팁
