@@ -26,7 +26,7 @@ public class CorsConfig implements WebMvcConfigurer {
 
 #### 어려웠던 점
 
-* stream()으로 구현하면 간단한 것도 직접 하나하나 코딩하면 엄청나게 길이가 길어졌다. 써본지 오래되서 안쓰고 해보려다 결국 다시 복습하는 계기가 되었다.
+* stream()으로 구현하면 간단한 것도, 직접 하나하나 코딩하면 엄청나게 길이가 길어졌다. 써본지 오래되서 안쓰고 해보려다 결국 다시 복습하는 계기가 되었다.
 
 ```java
 PostDto postDto = postDtos.stream()
@@ -40,7 +40,7 @@ PostDto postDto = postDtos.stream()
 # npm 개발 환경 구축 (로컬)
 npm install
 # package-lock.json이 바뀌어 있어서, rollback 해준 후 진행
-npm test # 그냥 작동했더니 뭔가 에러남. 일단 서버를 안 켠듯 함
-npm run serve # 서버부터 켜기
+npm test # 그냥 작동했더니 뭔가 에러남. 일단 Frontend 서버를 안 켠듯 함
+npm run serve # Frontend 서버부터 켜기
 npm run codeceptjs # React Demo를 돌려서 Frontend를 활용해 REST API 테스트 진행
 ```
