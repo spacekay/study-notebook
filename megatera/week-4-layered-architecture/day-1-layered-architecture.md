@@ -80,7 +80,7 @@ public class PostController {
 private PostService postService;
 
 public PostController(PostService postService) {
-    // Spring Container에서 관리하는 객체를 주입받기 위해 생성자 내부에서 new 하지 않음음
+    // Spring Container에서 관리하는 객체를 주입받기 위해 생성자 내부에서 new 하지 않음
     this.postService = postService;
 }
 
@@ -127,6 +127,7 @@ public class PostService {
 * Refactoring
   * 관심사의 분리에 따라 코드도 분리하여야 하는데, 코드를 어떻게 배치하느냐는 설계의 문제.
   * 기능이 작동하는 방식은 바뀌지 않고, 코드 설계만 개선하는 경우를 Refactoring이라 함.
-  * Method / Class refactoring
-  * 해당 Class 내에서 반복 사용되는 코드는 private method로 분리하여 관리 -> Refactoring
+  * Method refactoring & Class refactoring
+  * 해당 Class 내에서 반복 사용되는 코드는 private method로 분리하여 관리\
+    \-> method refactoring
     * 해당 기능은 새로 만든 그 메소드로만 관리하면 클래스 내 해당 기능 실행 포인트 전체를 관리할 수 있음 -> 기능 단위 **관리 포인트 최소화**.
