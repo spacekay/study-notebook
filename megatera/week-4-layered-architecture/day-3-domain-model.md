@@ -75,10 +75,19 @@ description: Day 3 Domain Model
   * 특정 객체를 Map의 key object로 사용하기 위해서는, equals()와 hashCode() 메소드가 override 되어 있어야 함
   * Getter, Setter 사용하지 않음 -> 모델이 직접 비즈니스 로직을 구현하는 행위를 하도록 함
     * Getter는 가급적중간 상황 확인 목적 혹은 단순 값 열람 목적으로만 사용
-  * 코드 작성
 
 ```java
-// Some code
+public class Post {
+    
+    private PostId id;
+    
+    private PostTitle title;
+    
+    public Post(PostId id, PostTitle title) {
+        this.id = id;
+        this.title = title;
+    }
+}
 ```
 
 * **Repository**
@@ -87,13 +96,35 @@ description: Day 3 Domain Model
   * 코드 작성
 
 ```java
-// Some code
+public class PostRepository {
+
+    private Map<PostId, Post> posts;
+    
+    public Post find();
+    
+    public List<Post> findAll();
+    
+    public void save(Post post);
+    
+    public void delete(String id);
+}
 ```
 
-* 구현 과정에서의 팁
-  * static method를 간단히 구현하여 생성자 대신 사용할 수도 있음 (코드 작성)
-  * 생성자만 구현되어 있다면, A 객체에서 B 객체로 전환해주는 코드를 stream().map(\~\~)으로 작성 가능 (코드 작성)
+#### 구현 과정에서의 팁
+
+* static method를 간단히 구현하여 생성자 대신 사용할 수도 있음&#x20;
 
 ```java
-// Some code
+public static PostId of(String id) {
+    return new PostId(id);
+}
+```
+
+* 생성자만 구현되어 있다면, A 객체에서 B 객체로 전환해주는 코드를 stream().map(\~\~)으로 작성 가능 (코드 작성)
+
+```java
+// 단, 이를 위해서는 Post 객체를 parameter로 받는 PostDto 생성자가 필요
+PostDto postDto = posts.stream()
+                                .map(post -> new PostDto())
+                                .toList();
 ```

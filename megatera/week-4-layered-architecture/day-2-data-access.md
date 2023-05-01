@@ -57,11 +57,11 @@ public class PostService {
 }
 ```
 
-| Controller                         | Service                            | DAO                   |
-| ---------------------------------- | ---------------------------------- | --------------------- |
-| details(String id)                 | getPost(String id)                 | find(String id)       |
-| list()                             | getPosts()                         | findAll()             |
-| create(PostDto postDto)            | create(PostDto postDto)            | save(PostDto postDto) |
-| update(String id, PostDto postDto) | update(String id, PostDto postDto) | save(PostDto postDto) |
-| delete(String id)                  | delete(String id)                  | delete(String id)     |
+| Controller                         | Service                                | DAO                   |
+| ---------------------------------- | -------------------------------------- | --------------------- |
+| details(String id)                 | getPost(String id)                     | find(String id)       |
+| list()                             | getPosts()                             | findAll()             |
+| create(PostDto postDto)            | createPost(PostDto postDto)            | save(PostDto postDto) |
+| update(String id, PostDto postDto) | updatePost(String id, PostDto postDto) | save(PostDto postDto) |
+| delete(String id)                  | deletePost(String id)                  | delete(String id)     |
 
