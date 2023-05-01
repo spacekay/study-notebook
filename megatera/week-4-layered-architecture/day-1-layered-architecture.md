@@ -46,7 +46,7 @@ String id = UUID.randomUUID().toString().replace("=", "");
 ```
 
 * ULID (Universally Unique Lexicographically Sortable Identifier)
-  * Lexicographical -> 사전적 순서의 (a->z, 1->9)
+  * Lexicographic(al) order -> 사전적 순서 (a->z, 1->9)
   * ID 내부에 timestamp를 포함하며, 별도 라이브러리로 Spring에 build.gradle 등으로빌드함
 
 ```java
