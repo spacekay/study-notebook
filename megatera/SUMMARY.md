@@ -21,6 +21,11 @@
   * [Day 3 Jackson ObjectMapper](week-3-dto-json-cors/day-3-jackson-objectmapper.md)
   * [Day 4 CORS](week-3-dto-json-cors/day-4-cors.md)
   * [Task: Board API using DTO](week-3-dto-json-cors/task-board-api-using-dto.md)
+* [Week 4 - Layered Architecture](week-4-layered-architecture/README.md)
+  * [Day 1 Layered Architecture](week-4-layered-architecture/day-1-layered-architecture.md)
+  * [Day 2 Data Access](week-4-layered-architecture/day-2-data-access.md)
+  * [Day 3 Domain Model](week-4-layered-architecture/day-3-domain-model.md)
+  * [Task: Board API using Layered Architecture](week-4-layered-architecture/task-board-api-using-layered-architecture.md)
 
 ## Additional study
 
