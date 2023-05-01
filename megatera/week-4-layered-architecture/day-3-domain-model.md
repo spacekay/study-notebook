@@ -93,7 +93,6 @@ public class Post {
 * **Repository**
   * Domain model -  Database 사이에서의 Data mapping & date access 담당
   * 기존 DAO의 기능을 Domain model과 연결시킴
-  * 코드 작성
 
 ```java
 public class PostRepository {
@@ -120,7 +119,7 @@ public static PostId of(String id) {
 }
 ```
 
-* 생성자만 구현되어 있다면, A 객체에서 B 객체로 전환해주는 코드를 stream().map(\~\~)으로 작성 가능 (코드 작성)
+* 생성자만 구현되어 있다면, A 객체에서 B 객체로 전환해주는 코드를 stream().map(\~\~)으로 작성 가능&#x20;
 
 ```java
 // 단, 이를 위해서는 Post 객체를 parameter로 받는 PostDto 생성자가 필요
