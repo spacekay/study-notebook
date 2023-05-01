@@ -119,11 +119,12 @@ public static PostId of(String id) {
 }
 ```
 
-* 생성자만 구현되어 있다면, A 객체에서 B 객체로 전환해주는 코드를 stream().map(\~\~)으로 작성 가능&#x20;
+* 생성자만 구현되어 있다면, A 객체에서 B 객체로 전환해주는 코드를 stream().map(\~\~)으로 작성 가능
+  * [https://isntyet.github.io/java/java-stream-%EC%A0%95%EB%A6%AC(map)/](https://isntyet.github.io/java/java-stream-%EC%A0%95%EB%A6%AC\(map\)/)&#x20;
 
 ```java
 // 단, 이를 위해서는 Post 객체를 parameter로 받는 PostDto 생성자가 필요
 PostDto postDto = posts.stream()
-                                .map(post -> new PostDto())
+                                .map(post -> new PostDto(post))
                                 .toList();
 ```
