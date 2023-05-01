@@ -4,4 +4,9 @@ description: Day 3 Domain Model
 
 # Day 3 Domain Model
 
-TBU
+### 4-tier architecture
+
+* Presentation
+* Service
+* Domain Object
+* Data Mapper / Data Access
