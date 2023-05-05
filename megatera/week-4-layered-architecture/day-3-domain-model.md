@@ -63,7 +63,7 @@ description: Day 3 Domain Model
 
 * 조영호, <오브젝트>
 * 마켓컬리 기술 블로그 : [https://helloworld.kurly.com/blog/road-to-ddd/](https://helloworld.kurly.com/blog/road-to-ddd/)
-  * 테스트 코드를 작성하면서 개발하는 것은 기본 전
+  * 테스트 코드를 작성하면서 개발하는 것은 기본 전제.
 
 ### Domain Model 구현
 
