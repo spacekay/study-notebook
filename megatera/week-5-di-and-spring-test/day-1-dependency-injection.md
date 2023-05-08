@@ -82,9 +82,9 @@ beanFactory.registerBeanDefinition("postController", beanDefinition);
 
 #### Troubleshooting & Additional Tips
 
-* Bean 정의가 이중으로 된 클래스가 존재하는 경우 : Amboguous 하다는 에러 발생
-* @Bean 으로 작성한 특정 클래스의 컨테이너 내 생성 메소드의 return 을 null로 정의한 경우 : Fail to instatiate
-* 그 외에 기본 생성자가 없다는 에러가 나기도 한데, 이 경우 해당 클래스의 생성자에 있는 모든 클래스들을 Spring Bean으로 등록해 주어야 한다.
+* Bean 정의가 이중으로 된 클래스가 존재하는 경우 : Ambiguous 하다는 에러 발생
+* @Bean 으로 작성한 특정 클래스의 컨테이너 내 생성 메소드의 return 을 null로 정의한 경우 : Fail to parse configuration class
+* 그 외에 기본 생성자가 없다는 에러(Fail to Instantiate)가 나기도 한데, 이 경우 해당 클래스의 생성자에 있는 모든 클래스들을 Spring Bean으로 등록해 주어야 한다.
 * 특정 클래스의 여러 구현 방식 중 하나를 선택해야 하거나, 특정 값을 선택하여 build하여야 하는 경우 -> 외부 xml 파일이나 환경변수 등을 활용
 * "String".repeat(n) -> 해당 String 객체를 n번만큼 반복할 수 있는 메소드
   * 터미널의 기본 너비는 80글자(반각 문자 기준으로 추정)라고 한다.
@@ -92,5 +92,5 @@ beanFactory.registerBeanDefinition("postController", beanDefinition);
   * [https://velog.io/@galaxy/Spring%EC%9D%98-%EA%B8%B0%EB%B3%B8-%ED%8A%B9%EC%A7%95-POJO](https://velog.io/@galaxy/Spring%EC%9D%98-%EA%B8%B0%EB%B3%B8-%ED%8A%B9%EC%A7%95-POJO)
   * 필요한 클래스를 일일이 상속받아 코드량을 늘리는 것보다, annotation 등을 통해 필요한 객체를 주입받는 식으로 사용하면 코드 유지보수가 훨씬 편리함
   * POJO를 알차게 구현하려면, Java 코드 내에 Bean 설정 내용이 있는 것보다는 xml 등을 통해 외부에서 별도 정의하는 것이 맞음
-  * 하지만 최근에는 @ComponantScan과 같은 annotation을 이용하여 Spring Bean 설정 등을 해주고 있음 -> 완전한 POJO는 아님. 편의성을 위해 일부 희생한 부분.
+  * 하지만 최근에는 @ComponentScan과 같은 annotation을 이용하여 Spring Bean 설정 등을 해주고 있음 -> 완전한 POJO는 아님. 편의성을 위해 일부 희생한 부분.
 
