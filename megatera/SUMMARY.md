@@ -26,6 +26,12 @@
   * [Day 2 Data Access](week-4-layered-architecture/day-2-data-access.md)
   * [Day 3 Domain Model](week-4-layered-architecture/day-3-domain-model.md)
   * [Task: Board API using Layered Architecture](week-4-layered-architecture/task-board-api-using-layered-architecture.md)
+* [Week 5 - DI & Spring Test](week-5-di-and-spring-test/README.md)
+  * [Day 1 Dependency Injection](week-5-di-and-spring-test/day-1-dependency-injection.md)
+  * [Day 2 Unit Test](week-5-di-and-spring-test/day-2-unit-test.md)
+  * [Day 3 Spring Test](week-5-di-and-spring-test/day-3-spring-test.md)
+  * [Day 4 TDD](week-5-di-and-spring-test/day-4-tdd.md)
+  * [Task: Writing Spring Test](week-5-di-and-spring-test/task-writing-spring-test.md)
 
 ## Additional study
 
