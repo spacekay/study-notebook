@@ -79,6 +79,15 @@ description: Day 2 Unit Test
   * @DisplayName : 테스트 메소드 실행 결과를 콘솔 또는 IDE에서 확인할 때 함께 볼 수 있도록 테스트 메소드에 대한 설명 추가
   * @BeforeEach : 모든 테스트 메소드 시작 전 기본적으로 실행해야 하는 메소드를 정의 (Instance 생성, 초기값 등록 등)
 
+### Test Pyramid
+
+<figure><img src="../.gitbook/assets/6316d9e765cd53d9937e2b6a_The-Testing-Pyramid-Simplified-for-One-and-All-p-1080 (1).webp" alt=""><figcaption><p>Test Pyramid (source : <a href="https://www.headspin.io/blog/the-testing-pyramid-simplified-for-one-and-all">https://www.headspin.io/blog/the-testing-pyramid-simplified-for-one-and-all</a>)</p></figcaption></figure>
+
+* 위로 갈수록 통합적이고 아래로 갈수록 (기능별) 고립되어 있으며,\
+  위로 갈수록 테스트 진행 속도가 느리며 아래로 갈수록 속도가 빠르다.
+* 유닛 테스트를 많이 해두면 위쪽 테스트들은 훨씬 더 적게 할 수 있음
+  * 부품의 신뢰성이 높으면 조립한 제품도 신뢰성이 높아짐
+
 #### Tips
 
 * IntelliJ에서 메소드 위 빈 줄에서  <mark style="background-color:blue;">/\*\*</mark> 를 작성 후 엔터키를 치면 메소드 설명용 주석 템플릿이 자동 생성됨
@@ -87,9 +96,6 @@ description: Day 2 Unit Test
 * Immutable하게 테스트 클래스 내부에서 계속 사용할 instance는 가급적 static final로 선언하기
 * 위에 있는 코드는 아래에 있는 코드들을 활용하도록 한다 <- 를 전제로 메소드간 위치 정리\
   (필드, 생성자 선언 정도만 예외)
-
-<figure><img src="../.gitbook/assets/6316d9e765cd53d9937e2b6a_The-Testing-Pyramid-Simplified-for-One-and-All-p-1080 (1).webp" alt=""><figcaption><p>Test Pyramid (source : <a href="https://www.headspin.io/blog/the-testing-pyramid-simplified-for-one-and-all">https://www.headspin.io/blog/the-testing-pyramid-simplified-for-one-and-all</a>)</p></figcaption></figure>
-
 * Test Pyramid
   * 위로 갈수록 통합적이고 아래로 갈수록 (기능별) 고립되어 있으며,\
     위로 갈수록 테스트 진행 속도가 느리며 아래로 갈수록 속도가 빠르다.
