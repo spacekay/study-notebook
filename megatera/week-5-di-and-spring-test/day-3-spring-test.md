@@ -110,26 +110,25 @@ description: Day 3 Spring Test
     (Controller class를 테스트 중인데 Service class의 문제로 테스트 fail하는 상황을 방지한다는 뜻)
 
 ```java
-    @Test
-    @DisplayName("게시물 수정")
-    void update() {
-        given(postRepository.find("2"))
-                .willReturn(
-                        new Post(
-                                PostId.of("2"),
-                                PostTitle.of("내가 첫 글???"),
-                                PostAuthor.of("김종희"),
-                                MultilineText.of("신난닷!!\n너무 좋아용~~!!")));
+@Test
+@DisplayName("PATCH /Comments/{id}?postId={postId}")
+void update() throws Exception {
+    given(updateCommentService.updateComment("1", "3", new CommentUpdateDto("하하하!")))
+            .willReturn(new CommentDto("1", "관리자", "하하하!"));
 
-        PostUpdateDto postUpdateDto = new PostUpdateDto("새로 글 쓰기", "새로 글을\n쓰는 중입니다.\n\n좋아용");
-        
-        PostDto postDto = updatePostService.updatePost("2", postUpdateDto);
+    String json = """
+            {
+                "content": "하하하!"
+            }
+            """;
 
-        verify(postRepository).save(any(Post.class));
-        assertThat(postDto).isNotNull();
-        assertThat(postDto.getTitle()).contains("새로");
-        assertThrows(PostNotFound.class, () -> updatePostService.updatePost("3", postUpdateDto));
-    }
+    mockMvc.perform(patch("/comments/1?postId=3")
+                    .contentType(MediaType.APPLICATION_JSON)
+                    .content(json))
+            .andExpect(status().isOk());
+
+    verify(updateCommentService).updateComment(any(String.class), any(String.class), any(CommentUpdateDto.class));
+}
 ```
 
 #### Tips <a href="#tips" id="tips"></a>
