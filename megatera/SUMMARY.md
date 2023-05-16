@@ -39,6 +39,7 @@
   * [Day 4 Entity-Relationship Model](week-6-database/day-4-entity-relationship-model.md)
   * [Day 5 JDBC](week-6-database/day-5-jdbc.md)
   * [Day 6 JdbcTemplate](week-6-database/day-6-jdbctemplate.md)
+  * [Task: Connecting with Database](week-6-database/task-connecting-with-database.md)
 
 ## Additional study
 
