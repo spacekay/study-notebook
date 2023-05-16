@@ -44,7 +44,30 @@ description: Day 3 Spring Test
 | HEAD            | headForHeaders(url) → 해당 url을 GET으로 호출했을 때 받는 header 정보만 표시                                |
 | OPTIONS         | optionsForAllow(url) → 해당 url로 받을 수 있는 메소드를 모두 표시                                          |
 
-// 예시 코드 추가
+```java
+    @Test
+    public void post() {
+        String url = "http://localhost:" + port + "/posts";
+
+        PostDto postDto = new PostDto("ID", "새 글", "ㅇㅅㅇ");
+        restTemplate.postForLocation(url, postDto);
+        assertThat(postDto.getContent()).contains("ㅇㅅㅇ");
+
+        String body = restTemplate.getForObject(url, String.class);
+
+        assertThat(body).contains("새 글");
+        assertThat(body).contains("ㅇㅅㅇ");
+
+        String id = findLastString(body);
+
+        restTemplate.delete(url + "/" + id);
+
+        body = restTemplate.getForObject(url, String.class);
+
+        assertThat(body).doesNotContain(id);
+        assertThat(body).doesNotContain("새 글");
+        assertThat(body).contains("내용");
+```
 
 ### MockMvc <a href="#mockmvc" id="mockmvc"></a>
 
@@ -67,9 +90,7 @@ description: Day 3 Spring Test
   * verify(테스트하고자 하는 메소드를 가진 class).method(any(Class))
     * 테스트하고자 하는 메소드를 가진 class가 method를 실행하여 Class 타입의 parameter를 무사히 받았는지 판정
     * any() 대신 argThat()을 통해 parameter로 들어간 객체가 내가 원하는 조건에 맞는지 판정할 수도 있음
-* 강의 내용 일부 백업 : private로 정의된 객체의 field의 값을 getter 없이 가져오는 메소드 작성
-
-// 코드 작성
+* 강의 내용 일부 백업 : private로 정의된 객체의 field의 값을 getter 없이 가져오는 메소드
 
 ### Web MVC Test <a href="#web-mvc-test" id="web-mvc-test"></a>
 
@@ -88,7 +109,28 @@ description: Day 3 Spring Test
   * 우리가 테스트하고자 하는 클래스의 기능만 **격리**하여 테스트 가능\
     (Controller class를 테스트 중인데 Service class의 문제로 테스트 fail하는 상황을 방지한다는 뜻)
 
-&#x20;
+```java
+    @Test
+    @DisplayName("게시물 수정")
+    void update() {
+        given(postRepository.find("2"))
+                .willReturn(
+                        new Post(
+                                PostId.of("2"),
+                                PostTitle.of("내가 첫 글???"),
+                                PostAuthor.of("김종희"),
+                                MultilineText.of("신난닷!!\n너무 좋아용~~!!")));
+
+        PostUpdateDto postUpdateDto = new PostUpdateDto("새로 글 쓰기", "새로 글을\n쓰는 중입니다.\n\n좋아용");
+        
+        PostDto postDto = updatePostService.updatePost("2", postUpdateDto);
+
+        verify(postRepository).save(any(Post.class));
+        assertThat(postDto).isNotNull();
+        assertThat(postDto.getTitle()).contains("새로");
+        assertThrows(PostNotFound.class, () -> updatePostService.updatePost("3", postUpdateDto));
+    }
+```
 
 #### Tips <a href="#tips" id="tips"></a>
 

@@ -6,10 +6,10 @@ description: devnote_spacekay
 
 <figure><img src=".gitbook/assets/박명수_진사.jpg" alt=""><figcaption></figcaption></figure>
 
-### megatera devroad (backend survival)
+### backend survival
 
 * Archive materials
-* keeping records
+* Keeping records
 
 
 

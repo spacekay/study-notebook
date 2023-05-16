@@ -32,6 +32,13 @@
   * [Day 3 Spring Test](week-5-di-and-spring-test/day-3-spring-test.md)
   * [Day 4 TDD](week-5-di-and-spring-test/day-4-tdd.md)
   * [Task: Writing Spring Test](week-5-di-and-spring-test/task-writing-spring-test.md)
+* [Week 6 Database](week-6-database/README.md)
+  * [Day 1 Database](week-6-database/day-1-database.md)
+  * [Page 3](week-6-database/page-3.md)
+  * [Page 7](week-6-database/page-7.md)
+  * [Page 5](week-6-database/page-5.md)
+  * [Untitled](week-6-database/untitled.md)
+  * [Page 4](week-6-database/page-4.md)
 
 ## Additional study
 
