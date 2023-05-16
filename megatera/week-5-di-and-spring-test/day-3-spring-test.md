@@ -4,7 +4,7 @@ description: Day 3 Spring Test
 
 # Day 3 Spring Test
 
-### 다시 Spring Test <a href="#spring-test" id="spring-test"></a>
+### Spring Test <a href="#spring-test" id="spring-test"></a>
 
 1. Unit Testing → Mock object 생성하여 진행
 2. Integration Testing → Spring IoC Controller Context를 생성하여 진행. DB 연결도 고려함
