@@ -34,11 +34,11 @@
   * [Task: Writing Spring Test](week-5-di-and-spring-test/task-writing-spring-test.md)
 * [Week 6 Database](week-6-database/README.md)
   * [Day 1 Database](week-6-database/day-1-database.md)
-  * [Page 3](week-6-database/page-3.md)
-  * [Page 7](week-6-database/page-7.md)
-  * [Page 5](week-6-database/page-5.md)
-  * [Untitled](week-6-database/untitled.md)
-  * [Page 4](week-6-database/page-4.md)
+  * [Day 2 Relational Model](week-6-database/day-2-relational-model.md)
+  * [Day 3 Relational Algebra](week-6-database/day-3-relational-algebra.md)
+  * [Day 4 Entity-Relationship Model](week-6-database/day-4-entity-relationship-model.md)
+  * [Day 5 JDBC](week-6-database/day-5-jdbc.md)
+  * [Day 6 JdbcTemplate](week-6-database/day-6-jdbctemplate.md)
 
 ## Additional study
 
