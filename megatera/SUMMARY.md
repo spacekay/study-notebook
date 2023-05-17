@@ -32,7 +32,7 @@
   * [Day 3 Spring Test](week-5-di-and-spring-test/day-3-spring-test.md)
   * [Day 4 TDD](week-5-di-and-spring-test/day-4-tdd.md)
   * [Task: Writing Spring Test](week-5-di-and-spring-test/task-writing-spring-test.md)
-* [Week 6 Database](week-6-database/README.md)
+* [Week 6 - Database](week-6-database/README.md)
   * [Day 1 Database](week-6-database/day-1-database.md)
   * [Day 2 Relational Model](week-6-database/day-2-relational-model.md)
   * [Day 3 Relational Algebra](week-6-database/day-3-relational-algebra.md)
