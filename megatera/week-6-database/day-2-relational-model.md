@@ -31,6 +31,11 @@ description: Day 2 Relational Model
 | Tuple (튜플)    | <p>(속성, 값) 쌍의 집합<br>-> 하나의 튜플 안에는 속성이 중복일 수 없음</p>     | Row, Record |
 | Relation (관계) | (속성, 튜플) 쌍의 집합                                         | Table       |
 
+```
+튜플 = (속성, 값) 
+관계 = 속성(Column) X 튜플(Row, Record)
+```
+
 * Relation Model은 Tuple의 집합인 Relation을 통해 DB를 구성
 * Relation과 Relationship은 다른 개념임!
   * Relation은 튜플의 집합을 나타내는 표현이고, Relationship은 Entity간 관계를 정의하는 표현
