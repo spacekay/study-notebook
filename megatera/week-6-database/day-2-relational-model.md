@@ -46,11 +46,13 @@ description: Day 2 Relational Model
   * 복수의NULL value를 허용함
   * Column간 순서는 DDL 등을 통해 정의했던 순서대로 보통 구성됨
 
-### Relation Value (관계 변수)
+### Relation Variable (관계 변수)
 
 * 관계(테이블)는 시간에 따라 변화므로, 변수로 정의
+  * 테이블 이름 자체로 표시
 
 ```json
+r1 = 
 {
     // Heading
     { id/bitint(20), name/varchar(255) },
