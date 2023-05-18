@@ -17,7 +17,7 @@ description: Day 4 Entity-Relationship Model
 
 * ER Model을 시각화하는 방법 중 하나
 
-<figure><img src="../.gitbook/assets/internet-sales-model.png" alt=""><figcaption><p>source : <a href="https://www.smartdraw.com/entity-relationship-diagram/">https://www.smartdraw.com/entity-relationship-diagram/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/internet-sales-model.png" alt=""><figcaption><p>source : <a href="https://www.smartdraw.com/entity-relationship-diagram/">https://www.smartdraw.com/entity-relationship-diagram/</a></p></figcaption></figure>
 
 * Entity들과 그 사이의 Relationship들을 그려줌
 * 실제 개발에서는..
@@ -27,7 +27,7 @@ description: Day 4 Entity-Relationship Model
 * ERD 그리기 연습할 때는..
   * Crow's Foot Notation보다는 정석으로 노트나 draw.io 같은 곳에 그려보는 것이 좋음
 
-<figure><img src="../.gitbook/assets/stewart06012008_2 (1).gif" alt=""><figcaption><p>source : <a href="https://tdan.com/crows-feet-are-best/7474">https://tdan.com/crows-feet-are-best/7474</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/stewart06012008_2 (1).gif" alt=""><figcaption><p>source : <a href="https://tdan.com/crows-feet-are-best/7474">https://tdan.com/crows-feet-are-best/7474</a></p></figcaption></figure>
 
 #### Tips
 

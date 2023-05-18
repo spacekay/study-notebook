@@ -19,7 +19,7 @@ description: Day 3 Spring Test
 * 작은 규모의 테스트일수록 개수를 많이 만들어야 함
   * 작은 규모의 테스트를 많이 만들어서 충분히 부품들을 검증할수록 상위 테스트 수는 줄어들게 됨
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### @SpringBootTest <a href="#springboottest" id="springboottest"></a>
 

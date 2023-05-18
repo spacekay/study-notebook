@@ -29,7 +29,7 @@ beanFactory.registerBeanDefinition("postController", beanDefinition);
 
 ### Pluggable Architecture
 
-<figure><img src="../.gitbook/assets/1_O5fy4IsGpZhgBYdqciBvAQ.webp" alt=""><figcaption><p>출처 : <a href="https://medium.com/omarelgabrys-blog/plug-in-architecture-dec207291800">https://medium.com/omarelgabrys-blog/plug-in-architecture-dec207291800</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1_O5fy4IsGpZhgBYdqciBvAQ.webp" alt=""><figcaption><p>출처 : <a href="https://medium.com/omarelgabrys-blog/plug-in-architecture-dec207291800">https://medium.com/omarelgabrys-blog/plug-in-architecture-dec207291800</a></p></figcaption></figure>
 
 * Core System을 중심으로, 특정한 기능을 수행하는 Plug-in들을 다수 추가할 수 있는 구조
 * 각각의 Plug-in 간에는 의존성이나 연관관계가 없어야 함 (그래야 독립적인 작동 및 관리 가능)

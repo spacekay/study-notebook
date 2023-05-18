@@ -9,7 +9,7 @@ description: Day 1 HTTP basics
   * 컴퓨터 네트워크로 통신할 때에 사용하는 규약
 *   Application Layer
 
-    <figure><img src="../.gitbook/assets/application-layer-diagram.webp" alt=""><figcaption><p>Open System Interconnection Model &#x26; TCP/IT Model</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/application-layer-diagram.webp" alt=""><figcaption><p>Open System Interconnection Model &#x26; TCP/IT Model</p></figcaption></figure>
 
     * 본 강의에서 중요하게 보는 레이어는 2, 3, 4, 7
 

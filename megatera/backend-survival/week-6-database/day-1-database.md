@@ -27,4 +27,4 @@ description: Day 1 Database
       * SQL : 원래 SEQUEL이라는 언어였으며, 나중에 Structured Query Language라는 해석이 생김
       * Commit, Rollback 등   TCL(Transaction Control Language)는 별도로 분리하기도 함
 
-      <figure><img src="../.gitbook/assets/1050px-SQL_분류.png" alt=""><figcaption><p>source : <a href="https://itwiki.kr/w/SQL">https://itwiki.kr/w/SQL</a></p></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/1050px-SQL_분류.png" alt=""><figcaption><p>source : <a href="https://itwiki.kr/w/SQL">https://itwiki.kr/w/SQL</a></p></figcaption></figure>

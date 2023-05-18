@@ -9,9 +9,9 @@ description: Day 2 Unit Test
 * 폭포수 모델을 확장한 형태 중 하나
   * 폭포수 모델 : 순차적인 소프트웨어 개발 프로세스로, 진행 중인 단계가 완료되기 전까지 다음 단계 이동이 불가능.
 
-<figure><img src="../.gitbook/assets/525px-Waterfall_model.svg.png" alt=""><figcaption><p>폭포수 모델 (출처 : 위키백과)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/525px-Waterfall_model.svg.png" alt=""><figcaption><p>폭포수 모델 (출처 : 위키백과)</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/V-model.JPG" alt=""><figcaption><p>V 모델 (출처 : 위키백과)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/V-model.JPG" alt=""><figcaption><p>V 모델 (출처 : 위키백과)</p></figcaption></figure>
 
 * 단계별로 개발을 진행한 후, 테스트는 역순으로 진행함
 
@@ -40,7 +40,7 @@ description: Day 2 Unit Test
     * 유지보수에 유리 (문제사항 대응, 업데이트 등이 보다 편리)
     * 결과적으로 외적 품질 유지에도 유리
 
-<figure><img src="../.gitbook/assets/agile-testing-quadrants.png" alt=""><figcaption><p>Agile Testing Quadrants<br>(출처 : <a href="https://www.professionalqa.com/agile-testing-quadrants">https://www.professionalqa.com/agile-testing-quadrants</a>)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/agile-testing-quadrants.png" alt=""><figcaption><p>Agile Testing Quadrants<br>(출처 : <a href="https://www.professionalqa.com/agile-testing-quadrants">https://www.professionalqa.com/agile-testing-quadrants</a>)</p></figcaption></figure>
 
 * 1분면 방향으로 갈수록 비즈니스 중심, 3분면 방향으로 갈수록 프로그래밍 중심
 
@@ -58,7 +58,7 @@ description: Day 2 Unit Test
 
 * **Square Roots by Newton's Method**
 
-<figure><img src="../.gitbook/assets/newton.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/newton.jpg" alt=""><figcaption></figcaption></figure>
 
 * 개요
   * 이 공식을 활용하는 클래스와 내부 메소드를 개발하였을 때, 개발한 코드를 통해 구한 y가 x의 제곱근이 맞는지 '테스트'하고자 함
@@ -81,7 +81,7 @@ description: Day 2 Unit Test
 
 ### Test Pyramid
 
-<figure><img src="../.gitbook/assets/6316d9e765cd53d9937e2b6a_The-Testing-Pyramid-Simplified-for-One-and-All-p-1080 (1).webp" alt=""><figcaption><p>Test Pyramid (source : <a href="https://www.headspin.io/blog/the-testing-pyramid-simplified-for-one-and-all">https://www.headspin.io/blog/the-testing-pyramid-simplified-for-one-and-all</a>)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6316d9e765cd53d9937e2b6a_The-Testing-Pyramid-Simplified-for-One-and-All-p-1080 (1).webp" alt=""><figcaption><p>Test Pyramid (source : <a href="https://www.headspin.io/blog/the-testing-pyramid-simplified-for-one-and-all">https://www.headspin.io/blog/the-testing-pyramid-simplified-for-one-and-all</a>)</p></figcaption></figure>
 
 * 위로 갈수록 통합적이고 아래로 갈수록 (기능별) 고립되어 있으며,\
   위로 갈수록 테스트 진행 속도가 느리며 아래로 갈수록 속도가 빠르다.
