@@ -34,9 +34,10 @@ public List<PostDto> findAll() {
 
 ### 어려웠던 점
 
-* 예전 로컬에 PostgreSQL을 깔았어서 5432번 포트 사용이 불가함을 뒤늦게 알았다.
-* JDBC를 넣기 시작하면 빌드 과정에서 다채로운 에러들이 생기기 시작한다.
-* DBMS가 바뀔 때마다 SQL 문법은 다시 확인하자.
+* 예전 로컬에 PostgreSQL을 깔았어서 5432번 포트 사용이 불가함을 뒤늦게 알았음
+* JDBC를 넣기 시작하면 빌드 과정에서 다채로운 에러들이 생기기 시작함
+* DBMS가 바뀔 때마다 SQL 문법은 다시 확인하기
+* Profile이 여러개인 프로젝트에서는 반드시 ApplicationTest 클래스 상단에 @ActiveProfile("test") annotation을 빼먹지 말자.
 
 #### Tips
 

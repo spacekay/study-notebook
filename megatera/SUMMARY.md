@@ -43,6 +43,13 @@
   * [Day 5 JDBC](backend-survival/week-6-database/day-5-jdbc.md)
   * [Day 6 JdbcTemplate](backend-survival/week-6-database/day-6-jdbctemplate.md)
   * [Task: Connecting with Database](backend-survival/week-6-database/task-connecting-with-database.md)
+* [Week 7 - JPA](backend-survival/week-7-jpa/README.md)
+  * [Day 1 ORM](backend-survival/week-7-jpa/day-1-orm.md)
+  * [Day 2 Hibernate](backend-survival/week-7-jpa/day-2-hibernate.md)
+  * [Day 3 Embeddable](backend-survival/week-7-jpa/day-3-embeddable.md)
+  * [Day 4 Relationship Mapping](backend-survival/week-7-jpa/day-4-relationship-mapping.md)
+  * [Day 5 Spring Data JPA](backend-survival/week-7-jpa/day-5-spring-data-jpa.md)
+  * [Task: Connecting with JPA](backend-survival/week-7-jpa/task-connecting-with-jpa.md)
 
 ## Additional study
 
