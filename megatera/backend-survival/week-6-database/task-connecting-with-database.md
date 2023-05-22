@@ -14,7 +14,7 @@ description: 'Task: Connecting with Database'
 C:\Program Files\PostgreSQL\{version}\data\postgresql.conf
 ```
 
-* 람다 함수 내부에서 만들어진 객체들은, 외부의 객체들과 분리되어 있는 것 같다. 따라서 람다 함수 내부에서 만들어진 객체를 한번 return 해줘야 함
+* 람다 함수 내부에서 만들어진 객체들은, 외부의 객체들과 분리되어 있는 것 같음. 따라서 람다 함수 내부에서 만들어진 객체를 한번 return 해줘야 함
 
 ```java
 @Override
