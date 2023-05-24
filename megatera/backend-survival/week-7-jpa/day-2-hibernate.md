@@ -22,7 +22,7 @@ implementation 'DB Driver'
   * [https://en.wikibooks.org/wiki/Java\_Persistence/Mapping](https://en.wikibooks.org/wiki/Java\_Persistence/Mapping)
 
 ```java
-// Entity class 예시 코드
+// Entity class 예시 코드 (작성 예정)
 ```
 
 ### JPA 구현
@@ -56,5 +56,5 @@ implementation 'DB Driver'
 #### 구현 예시
 
 ```java
-// Jpa test code 시
+// Jpa test code 예시 (작성 예정)
 ```
