@@ -10,17 +10,17 @@ description: Day 4 Relationship Mapping
   (JPA 사용 초기에는 밑줄 그은대로 하는 것이 안전)
 * DDD Aggregate를 구현하기 위해서는  주로 `@OneToMany` annotation에 `CascadeType.ALL`, `orphanRemoval=true` 설정
   * Person 객체가 Item 객체를 가진 경우, Person이 Item을 소유하고 있으므로 Item에 외부에서 개별적으로 접근해서는 안됨
-  * CascadeType
-    * [https://zzang9ha.tistory.com/350](https://zzang9ha.tistory.com/350)
-    * 영속성(Persistence) 전이란? -> 특정 entity를 영속화하였을 때 연관 entity도 영속 상태로 전이되는 경우를 의미
-    * `CascadeType.ALL` : 상위(부모) entity의 상태 변화가 하위(자식) entity에도 그대로 모두 반영
-  * orphanRemoval
-    * [https://tecoble.techcourse.co.kr/post/2021-08-15-jpa-cascadetype-remove-vs-orphanremoval-true/](https://tecoble.techcourse.co.kr/post/2021-08-15-jpa-cascadetype-remove-vs-orphanremoval-true/)
-    * 자식 entity를 업데이트할 경우, 새롭게 만든 자식 entity 객체에 부모 entity가 연결되고 기존 자식 entity 객체는 null로 바뀜\
-      \-> 이와 같이 연관관계가 끊기거나, 삭제  커맨드 등으로 인해 부모 entity와의 관계를 잃어버린 객체를 orphan이라 함
-    * Orphan entity가 발생하는 경우 삭제할지 설정하는 옵션이 orphanRemoval
-    * 어차피 CascadeType.ALL을 적용한 케이스에서는, 특정 부모 entity에 연결되어 있던 자식entity가 단독으로 남아있는 것이 의미가 없므로, `orphanRemoval = true` 옵션을 사용함
-    * 단, 자식 entity가 여러 entity에 엮여있다거나.. 한 경우에는 다른 옵션을 써야 할 것 같음
+* **CascadeType**
+  * [https://zzang9ha.tistory.com/350](https://zzang9ha.tistory.com/350)
+  * 영속성(Persistence) 전이란? -> 특정 entity를 영속화하였을 때 연관 entity도 영속 상태로 전이되는 경우를 의미
+  * `CascadeType.ALL` : 상위(부모) entity의 상태 변화가 하위(자식) entity에도 그대로 모두 반영
+* **orphanRemoval**
+  * [https://tecoble.techcourse.co.kr/post/2021-08-15-jpa-cascadetype-remove-vs-orphanremoval-true/](https://tecoble.techcourse.co.kr/post/2021-08-15-jpa-cascadetype-remove-vs-orphanremoval-true/)
+  * 자식 entity를 업데이트할 경우, 새롭게 만든 자식 entity 객체에 부모 entity가 연결되고 기존 자식 entity 객체는 null로 바뀜\
+    \-> 이와 같이 연관관계가 끊기거나, 삭제  커맨드 등으로 인해 부모 entity와의 관계를 잃어버린 객체를 orphan이라 함
+  * Orphan entity가 발생하는 경우 삭제할지 설정하는 옵션이 `orphanRemoval`
+  * 어차피 `CascadeType.ALL`을 적용한 케이스에서는, 특정 부모 entity에 연결되어 있던 자식entity가 단독으로 남아있는 것이 의미가 없므로, `orphanRemoval = true` 옵션을 사용함
+  * 단, 자식 entity가 여러 entity에 엮여있다거나.. 한 경우에는 다른 옵션을 써야 할 것 같음
 
 #### Relationship Mapping 시 주의사항
 
