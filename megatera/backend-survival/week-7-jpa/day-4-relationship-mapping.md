@@ -21,10 +21,13 @@ description: Day 4 Relationship Mapping
     * Orphan entity가 발생하는 경우 삭제할지 설정하는 옵션이 orphanRemoval
     * 어차피 CascadeType.ALL을 적용한 케이스에서는, 특정 부모 entity에 연결되어 있던 자식entity가 단독으로 남아있는 것이 의미가 없므로, `orphanRemoval = true` 옵션을 사용함
     * 단, 자식 entity가 여러 entity에 엮여있다거나.. 한 경우에는 다른 옵션을 써야 할 것 같음
+
+#### Relationship Mapping 시 주의사항
+
 * 단, 너무 많은 객체들끼리 엮어두면 작업 시간이 길어질 수도 있으므로...
   * 처리 시간 단축이 중요한 조회 작업의 경우 JPA Entity를 활용하지 않는 것이 더 빠를 수 있음
-  * Command : JPA Entity, Relationship Mapping을 모두 활용
-  * Query : SQL Mapper(jdbcTemplate 등)로 바로 작업하는 것 추천
+  * <mark style="color:blue;">Command : JPA Entity, Relationship Mapping을 모두 활용</mark>
+  * <mark style="color:blue;">Query : SQL Mapper(jdbcTemplate 등)로 바로 작업하는 것 추천</mark>
 * Item 객체를 현재 Person 객체가 소유하고 있다면, Item 객체 처리를 Person 객체로 위임할 수 있음
   * 이 경우 Person에 대한 DAO만 사용하여도 Item 객체까지 처리할 수 있음
   * 단, items list의 사이즈가 지나치게 커진다거나 해서 Item 객체의 비중이 Person 객체보다 훨씬 커져 주객전도 현상이 발생할 수 있음\
@@ -40,7 +43,7 @@ description: Day 4 Relationship Mapping
 * Annotations
   * `@OneToMany(CascadeType.ALL, orphanRemoval=true)`
   * `@JoinColumn(name="외래키 이름", referencedColumnName="자식 테이블에서 참조하는 column 이름 (별도 지정 없으면 id)")`
-  * `@Orderby("리스트의 정렬 기준이 될 자식 테이블 컬럼명")`
+  * `@OrderBy("리스트의 정렬 기준이 될 자식 테이블 컬럼명")`
 * OneToMany : CascadeType.ALL, orphanRemoval=true로 하여도 괜찮음
 * ManyToOne : 다른 설정이 필요할 수도 있음
 
