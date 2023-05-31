@@ -50,6 +50,10 @@
   * [Day 4 Relationship Mapping](backend-survival/week-7-jpa/day-4-relationship-mapping.md)
   * [Day 5 Spring Data JPA](backend-survival/week-7-jpa/day-5-spring-data-jpa.md)
   * [Task: Connecting with JPA](backend-survival/week-7-jpa/task-connecting-with-jpa.md)
+* [Week 8 - Domain-Driven Design](backend-survival/week-8-domain-driven-design/README.md)
+  * [Day 1 Domain-Driven Design](backend-survival/week-8-domain-driven-design/day-1-domain-driven-design.md)
+  * [Day 2 Strategic Design](backend-survival/week-8-domain-driven-design/day-2-strategic-design.md)
+  * [Day 3\~5 Tactic Design](backend-survival/week-8-domain-driven-design/day-3-5-tactic-design.md)
 
 ## Additional study
 
