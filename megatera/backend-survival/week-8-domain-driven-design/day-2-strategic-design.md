@@ -10,7 +10,7 @@ description: Day 2 Strategic Design
 
 1. Ubiquitous Language (보편 언어)
 2. Bounded Context (제한된 컨텍스트-맥락-)
-3. Subdomain (하위 도메인) - 올바른 하위 도메인 설정
+3. Subdomain (하위 도메인) - 적절하게도메인 나누기
 
 #### 보편 언어
 

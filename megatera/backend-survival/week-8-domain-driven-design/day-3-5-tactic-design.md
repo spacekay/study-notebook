@@ -44,7 +44,8 @@ description: Day 3 ~ 5 Tactic Design
 <pre><code>&#x3C; Example >
 <strong>* Entity : Order, Item
 </strong><strong>* 불변식 : 주문별 총 금액은 100만원 이하여야 함
-</strong>[Order Aggregate] Order (Aggregate Root) - listItem (1)
+</strong>
+[Order Aggregate] Order (Aggregate Root) - listItem (1)
                                          - listItem (2)
                                          
 order.addItem(new Item("1번 아이템")); &#x3C;- '주문에 아이템을 추가한다'라는 동작에 집중
