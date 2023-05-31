@@ -53,7 +53,8 @@
 * [Week 8 - Domain-Driven Design](backend-survival/week-8-domain-driven-design/README.md)
   * [Day 1 Domain-Driven Design](backend-survival/week-8-domain-driven-design/day-1-domain-driven-design.md)
   * [Day 2 Strategic Design](backend-survival/week-8-domain-driven-design/day-2-strategic-design.md)
-  * [Day 3\~5 Tactic Design](backend-survival/week-8-domain-driven-design/day-3-5-tactic-design.md)
+  * [Day 3 \~ 5 Tactic Design](backend-survival/week-8-domain-driven-design/day-3-5-tactic-design.md)
+  * [Task: Trying to use DDD](backend-survival/week-8-domain-driven-design/task-trying-to-use-ddd.md)
 
 ## Additional study
 

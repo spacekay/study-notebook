@@ -1,8 +1,8 @@
 ---
-description: Day 3~5 Tactic Design
+description: Day 3 ~ 5 Tactic Design
 ---
 
-# Day 3\~5 Tactic Design
+# Day 3 \~ 5 Tactic Design
 
 ### DDD Lite : Model-Driven Design
 
