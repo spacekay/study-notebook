@@ -6,7 +6,7 @@ description: Day 1 SOLID
 
 ### SOLID
 
-* Uncle Bob - Agile Software Development에서 최초 제창
+* Uncle Bob, \<Clean Architecture>에서 최초 제창
 * 마이클 페더스 - 각 원칙의 앞글자를 따서 SOLID로 명명
 * **객체 지향 프로그래밍** 시 고려해야 할 5개 원칙
 
