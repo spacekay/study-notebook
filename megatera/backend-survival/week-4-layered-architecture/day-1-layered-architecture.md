@@ -23,11 +23,7 @@ description: Day 1 Layered Architecture
 
 ### 기능과 웹의 분리
 
-| 항목                | 기능                             | 웹                               |
-| ----------------- | ------------------------------ | ------------------------------- |
-| Layer (추상적 개념)    | Application Layer              | UI Layer                        |
-| 자동차로 비유           | 바퀴                             | 핸들                              |
-| Spring Web MVC 구현 | Application package (Services) | Controller package (Interfaces) |
+<table><thead><tr><th width="221.33333333333331">항목</th><th>기능</th><th>웹</th></tr></thead><tbody><tr><td>Layer (추상적 개념)</td><td>Application Layer</td><td>UI Layer</td></tr><tr><td>자동차로 비유</td><td>바퀴</td><td>핸들</td></tr><tr><td>Spring Web MVC 구현</td><td>Application package (Services)</td><td>Controller package (Interfaces)</td></tr></tbody></table>
 
 * 웹은 기능을 구현하기 위한 토대가 됨. 하지만 웹에서 실제 기능을 구현하지는 않음.
 * 웹에서 기능을 전부 구현하게 되면 Controller가 너무 복잡해지고, 유지보수가 어려움.

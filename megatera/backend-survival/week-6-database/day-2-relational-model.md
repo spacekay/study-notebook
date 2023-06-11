@@ -25,11 +25,7 @@ description: Day 2 Relational Model
 
 ### Relational Model (관계형 모델)
 
-| 개념            | 정의                                                     | DBMS에서의 구현  |
-| ------------- | ------------------------------------------------------ | ----------- |
-| Attibute (속성) | <p>(이름, 타입) 으로 구성<br>-> 속성의 이름은 속하는 집합(튜플) 내에서 유일함</p> | Column      |
-| Tuple (튜플)    | <p>(속성, 값) 쌍의 집합<br>-> 하나의 튜플 안에는 속성이 중복일 수 없음</p>     | Row, Record |
-| Relation (관계) | (속성, 튜플) 쌍의 집합                                         | Table       |
+<table><thead><tr><th width="163.33333333333331">개념</th><th width="413">정의</th><th>DBMS에서의 구현</th></tr></thead><tbody><tr><td>Attibute (속성)</td><td>(이름, 타입) 으로 구성<br>-> 속성의 이름은 속하는 집합(튜플) 내에서 유일함</td><td>Column</td></tr><tr><td>Tuple (튜플)</td><td>(속성, 값) 쌍의 집합<br>-> 하나의 튜플 안에는 속성이 중복일 수 없음</td><td>Row, Record</td></tr><tr><td>Relation (관계)</td><td>(속성, 튜플) 쌍의 집합</td><td>Table</td></tr></tbody></table>
 
 ```
 튜플 = (속성, 값) 

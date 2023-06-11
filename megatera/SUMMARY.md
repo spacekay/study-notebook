@@ -58,7 +58,7 @@
 * [Week 9 - Hexagonal Architecture](backend-survival/week-9-hexagonal-architecture/README.md)
   * [Day 1 SOLID](backend-survival/week-9-hexagonal-architecture/day-1-solid.md)
   * [Day 2 Hexagonal Architecture](backend-survival/week-9-hexagonal-architecture/day-2-hexagonal-architecture.md)
-  * [Task: 도메인 주도 설계 핵심 - 반 버논](backend-survival/week-9-hexagonal-architecture/task.md)
+  * [Task: <도메인 주도 설계 핵심>, 반 버논](backend-survival/week-9-hexagonal-architecture/task-less-than-greater-than.md)
 
 ## Additional study
 

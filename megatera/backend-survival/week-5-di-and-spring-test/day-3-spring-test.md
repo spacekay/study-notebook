@@ -35,14 +35,7 @@ description: Day 3 Spring Test
     * 클라이언트로부터의 REST request를 구현하여 테스트 가능
     * 응답도 REST response로 받으므로 이를 parsing하는 과정이 필요함
 
-| **HTTP method** | **메소드명**                                                                                   |
-| --------------- | ------------------------------------------------------------------------------------------ |
-| GET             | <p>getForObject(url, class)<br>→ Response를 parsing할 class를 지정할 수 있음 (ex: String.class)</p> |
-| POST            | postForLocation(url, Dto) → Dto로 body에 담을 데이터를 Json 형태로 전송 가능                              |
-| PATCH           | patchForObject(url, Dto, class) → Dto로 수정할 데이터를 전송한 다음 원하는 class로 response parsing         |
-| DELETE          | delete(url) → 해당 url + DELETE method 요청                                                    |
-| HEAD            | headForHeaders(url) → 해당 url을 GET으로 호출했을 때 받는 header 정보만 표시                                |
-| OPTIONS         | optionsForAllow(url) → 해당 url로 받을 수 있는 메소드를 모두 표시                                          |
+<table data-header-hidden><thead><tr><th width="156"></th><th></th></tr></thead><tbody><tr><td><strong>HTTP method</strong></td><td><strong>메소드명</strong></td></tr><tr><td>GET</td><td>getForObject(url, class)<br>→ Response를 parsing할 class를 지정할 수 있음 (ex: String.class)</td></tr><tr><td>POST</td><td>postForLocation(url, Dto) → Dto로 body에 담을 데이터를 Json 형태로 전송 가능</td></tr><tr><td>PATCH</td><td>patchForObject(url, Dto, class) → Dto로 수정할 데이터를 전송한 다음 원하는 class로 response parsing</td></tr><tr><td>DELETE</td><td>delete(url) → 해당 url + DELETE method 요청</td></tr><tr><td>HEAD</td><td>headForHeaders(url) → 해당 url을 GET으로 호출했을 때 받는 header 정보만 표시</td></tr><tr><td>OPTIONS</td><td>optionsForAllow(url) → 해당 url로 받을 수 있는 메소드를 모두 표시</td></tr></tbody></table>
 
 ```java
     @Test

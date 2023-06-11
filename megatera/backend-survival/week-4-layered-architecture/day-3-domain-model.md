@@ -38,11 +38,7 @@ description: Day 3 Domain Model
 
 ### Data-Driven vs. Domain-Driven Design
 
-| 항목                    | Data-Driven (As-Is)                         | Domain-Driven (To-be)                                                                                                                           |
-| --------------------- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| Application - Data 연결 | DAO - VO(DTO)                               | Repository - Domain Model                                                                                                                       |
-| 중심 레이어                | Database                                    | Domain Model                                                                                                                                    |
-| 특징                    | <ul><li>Database를 고치면 프로그램을 고쳐야 함</li></ul> | <ul><li>프로그램을 고치고 이를 지원하기 위해 Database를 고침</li><li>CQRS, Event Sourcing 도입에 유리함</li><li>Data solution 변경이 비교적 쉬움<br>(ex: SQL -> NoSQL)</li></ul> |
+<table><thead><tr><th width="222.33333333333331">항목</th><th width="250">Data-Driven (As-Is)</th><th>Domain-Driven (To-be)</th></tr></thead><tbody><tr><td>Application - Data 연결</td><td>DAO - VO(DTO)</td><td>Repository - Domain Model</td></tr><tr><td>중심 레이어</td><td>Database</td><td>Domain Model</td></tr><tr><td>특징</td><td><ul><li>Database를 고치면 프로그램을 고쳐야 함</li></ul></td><td><ul><li>프로그램을 고치고 이를 지원하기 위해 Database를 고침</li><li>CQRS, Event Sourcing 도입에 유리함</li><li>Data solution 변경이 비교적 쉬움<br>(ex: SQL -> NoSQL)</li></ul></td></tr></tbody></table>
 
 * CQRS
   * Command and Query Responsibility Segregation

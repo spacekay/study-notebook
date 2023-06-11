@@ -73,12 +73,7 @@ beanFactory.registerBeanDefinition("postController", beanDefinition);
 
 #### Annotation 복습
 
-| Annotation 이름  | 사용 대상                        | 설명                                                                                                                                  |
-| -------------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| @Bean          | Method                       | @SpringApplication class에 생성하는 메소드 중 특정 클래스를 return하는 것은, Spring IoC Container 내부에서 Singleton으로 관리할 해당 클래스의 설정을 별도 지정하기 위해 사용할 수 있음 |
-| @Configuration | Class                        | Spring 전체 설정을 위한 interface (ex: WebConfigMvc)를 @SpringApplication class 내부가 아니라 별도 Class를 구현하여 Spring IoC Container에 넣고자 하는 경우 사용함  |
-| @Component     | Class                        | 설정 관련이 아니지만 Web Application 동작을 위해 필요한 구성요소 class를 Spring IoC Container에 등록하기 위해 사용함 (ex: Controller, Service, Repository)          |
-| @ComponentScan | Class (Spring IoC Container) | 이 annotation이 붙은 클래스를 실행할 경우 프로젝트 내부의 조건(Annotation 자체 parameter로 받음)에 맞는 Spring Bean을 모두 스캔하여 Spring IoC Container 내부에 등록함         |
+<table><thead><tr><th width="189">Annotation 이름</th><th width="120.33333333333331">사용 대상</th><th>설명</th></tr></thead><tbody><tr><td>@Bean</td><td>Method</td><td>@SpringApplication class에 생성하는 메소드 중 특정 클래스를 return하는 것은, Spring IoC Container 내부에서 Singleton으로 관리할 해당 클래스의 설정을 별도 지정하기 위해 사용할 수 있음</td></tr><tr><td>@Configuration</td><td>Class</td><td>Spring 전체 설정을 위한 interface (ex: WebConfigMvc)를 @SpringApplication class 내부가 아니라 별도 Class를 구현하여 Spring IoC Container에 넣고자 하는 경우 사용함</td></tr><tr><td>@Component</td><td>Class</td><td>설정 관련이 아니지만 Web Application 동작을 위해 필요한 구성요소 class를 Spring IoC Container에 등록하기 위해 사용함 (ex: Controller, Service, Repository)</td></tr><tr><td>@ComponentScan</td><td>Class (Spring IoC Container)</td><td>이 annotation이 붙은 클래스를 실행할 경우 프로젝트 내부의 조건(Annotation 자체 parameter로 받음)에 맞는 Spring Bean을 모두 스캔하여 Spring IoC Container 내부에 등록함</td></tr></tbody></table>
 
 #### Troubleshooting & Additional Tips
 
