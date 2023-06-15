@@ -59,6 +59,13 @@
   * [Day 1 SOLID](backend-survival/week-9-hexagonal-architecture/day-1-solid.md)
   * [Day 2 Hexagonal Architecture](backend-survival/week-9-hexagonal-architecture/day-2-hexagonal-architecture.md)
   * [Task: <도메인 주도 설계 핵심>, 반 버논](backend-survival/week-9-hexagonal-architecture/task-less-than-greater-than.md)
+* [Week 10 - Spring Security](backend-survival/week-10-spring-security/README.md)
+  * [Day 1 Application Security](backend-survival/week-10-spring-security/day-1-application-security.md)
+  * [Day 2 Authentication](backend-survival/week-10-spring-security/day-2-authentication.md)
+  * [Day 3 Login & Logout](backend-survival/week-10-spring-security/day-3-login-and-logout.md)
+  * [Day 4 Signup](backend-survival/week-10-spring-security/day-4-signup.md)
+  * [Day 5 JWT & Authority](backend-survival/week-10-spring-security/day-5-jwt-and-authority.md)
+  * [Task: Using Login/Logout](backend-survival/week-10-spring-security/task-using-login-logout.md)
 
 ## Additional study
 
