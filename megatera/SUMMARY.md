@@ -66,6 +66,11 @@
   * [Day 4 Signup](backend-survival/week-10-spring-security/day-4-signup.md)
   * [Day 5 JWT & Authority](backend-survival/week-10-spring-security/day-5-jwt-and-authority.md)
   * [Task: Using Login/Logout](backend-survival/week-10-spring-security/task-using-login-logout.md)
+* [Week 11 - File Upload](backend-survival/week-11-file-upload/README.md)
+  * [Day 1 Multipart Formdata](backend-survival/week-11-file-upload/day-1-multipart-formdata.md)
+  * [Day 2 Separation of Concerns](backend-survival/week-11-file-upload/day-2-separation-of-concerns.md)
+  * [Day 3 Cloudinary](backend-survival/week-11-file-upload/day-3-cloudinary.md)
+  * [Task: Add file upload function](backend-survival/week-11-file-upload/task-add-file-upload-function.md)
 
 ## Additional study
 
