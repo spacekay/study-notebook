@@ -6,7 +6,9 @@ description: Day 2 Separation of Concerns
 
 ### 파일 업로드 기능 구현 시 관심사 분리가 필요한 이유
 
-* 1강에서 다룬 내용을 ImageController 등에서만 다 처리해 버리면, 컨트롤러에서 이미지를 단순히 서버로 받아들이는 기능 외에 너무 많은 기능을 갖게 됨 -> 컨트롤러가 직접 파일을 다루지 않게 하기
+* 1강에서 다룬 내용을 ImageController 등에서만 다 처리한다면?
+  * 컨트롤러에서 이미지를 단순히 서버로 받아들이는 기능 외에 너무 많은 기능을 갖게 됨\
+    \-> 컨트롤러가 직접 파일을 다루지 않게 하기
 * `ImageStorage` -> Infrastructure Service Class로 이해할 수 있음
 
 ### 파일 업로드 기능 테스트
