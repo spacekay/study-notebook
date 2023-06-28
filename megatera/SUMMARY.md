@@ -71,6 +71,9 @@
   * [Day 2 Separation of Concerns](backend-survival/week-11-file-upload/day-2-separation-of-concerns.md)
   * [Day 3 Cloudinary](backend-survival/week-11-file-upload/day-3-cloudinary.md)
   * [Task: Add file upload function](backend-survival/week-11-file-upload/task-add-file-upload-function.md)
+* [Week 12 - CQRS](backend-survival/week-12-cqrs/README.md)
+  * [Day 1 CQRS](backend-survival/week-12-cqrs/day-1-cqrs.md)
+  * [Day 2 Redis](backend-survival/week-12-cqrs/day-2-redis.md)
 
 ## Additional study
 
