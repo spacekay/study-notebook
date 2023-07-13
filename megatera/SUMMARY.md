@@ -71,14 +71,19 @@
   * [Day 2 Separation of Concerns](backend-survival/week-11-file-upload/day-2-separation-of-concerns.md)
   * [Day 3 Cloudinary](backend-survival/week-11-file-upload/day-3-cloudinary.md)
   * [Task: Add file upload function](backend-survival/week-11-file-upload/task-add-file-upload-function.md)
+* [Week 12 - CQRS](backend-survival/week-12-cqrs/README.md)
+  * [Day 1 CQRS](backend-survival/week-12-cqrs/day-1-cqrs.md)
+  * [Day 2 Redis](backend-survival/week-12-cqrs/day-2-redis.md)
 * [Week 13 - Online Shop (1)](backend-survival/week-13-online-shop-1/README.md)
   * [Day 1 Preparing for the Development](backend-survival/week-13-online-shop-1/day-1-preparing-for-the-development.md)
   * [Day 2 Category List](backend-survival/week-13-online-shop-1/day-2-category-list.md)
   * [Day 3 Product List](backend-survival/week-13-online-shop-1/day-3-product-list.md)
   * [Day 4 Product Details](backend-survival/week-13-online-shop-1/day-4-product-details.md)
-* [Week 12 - CQRS](backend-survival/week-12-cqrs/README.md)
-  * [Day 1 CQRS](backend-survival/week-12-cqrs/day-1-cqrs.md)
-  * [Day 2 Redis](backend-survival/week-12-cqrs/day-2-redis.md)
+* [Week 14 - Online Shop (2)](backend-survival/week-14-online-shop-2/README.md)
+  * [Day 1 Spring Security](backend-survival/week-14-online-shop-2/day-1-spring-security.md)
+  * [Day 2 Login & Logout](backend-survival/week-14-online-shop-2/day-2-login-and-logout.md)
+  * [Day 3 User](backend-survival/week-14-online-shop-2/day-3-user.md)
+  * [Day 4 Signin](backend-survival/week-14-online-shop-2/day-4-signin.md)
 
 ## Additional study
 
