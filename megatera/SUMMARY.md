@@ -84,6 +84,9 @@
   * [Day 2 Login & Logout](backend-survival/week-14-online-shop-2/day-2-login-and-logout.md)
   * [Day 3 User](backend-survival/week-14-online-shop-2/day-3-user.md)
   * [Day 4 Signin](backend-survival/week-14-online-shop-2/day-4-signin.md)
+* [Week 15 - Online Shop (3)](backend-survival/week-15-online-shop-3/README.md)
+  * [Day 1 Cart](backend-survival/week-15-online-shop-3/day-1-cart.md)
+  * [Day 2 Database](backend-survival/week-15-online-shop-3/day-2-database.md)
 
 ## Additional study
 
