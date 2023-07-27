@@ -87,6 +87,12 @@
 * [Week 15 - Online Shop (3)](backend-survival/week-15-online-shop-3/README.md)
   * [Day 1 Cart](backend-survival/week-15-online-shop-3/day-1-cart.md)
   * [Day 2 Database](backend-survival/week-15-online-shop-3/day-2-database.md)
+  * [Day 3 Putting Product in Cart](backend-survival/week-15-online-shop-3/day-3-putting-product-in-cart.md)
+  * [Day 4 Check Cart](backend-survival/week-15-online-shop-3/day-4-check-cart.md)
+* [Week 16 - Online Shop (4)](backend-survival/week-16-online-shop-4/README.md)
+  * [Day 1 Order](backend-survival/week-16-online-shop-4/day-1-order.md)
+  * [Day 2 Check Payment](backend-survival/week-16-online-shop-4/day-2-check-payment.md)
+  * [Day 3 Check Order](backend-survival/week-16-online-shop-4/day-3-check-order.md)
 
 ## Additional study
 
