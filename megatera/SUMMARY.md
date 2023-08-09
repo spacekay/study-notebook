@@ -93,6 +93,12 @@
   * [Day 1 Order](backend-survival/week-16-online-shop-4/day-1-order.md)
   * [Day 2 Check Payment](backend-survival/week-16-online-shop-4/day-2-check-payment.md)
   * [Day 3 Check Order](backend-survival/week-16-online-shop-4/day-3-check-order.md)
+* [Week 17 - Online Shop (5)](backend-survival/week-17-online-shop-5/README.md)
+  * [Day 1 Login & Logout (admin)](backend-survival/week-17-online-shop-5/day-1-login-and-logout-admin.md)
+  * [Day 2 User List](backend-survival/week-17-online-shop-5/day-2-user-list.md)
+  * [Day 3 Category Admin](backend-survival/week-17-online-shop-5/day-3-category-admin.md)
+  * [Day 4 Order Admin](backend-survival/week-17-online-shop-5/day-4-order-admin.md)
+  * [Day 5 Product Admin](backend-survival/week-17-online-shop-5/day-5-product-admin.md)
 
 ## Additional study
 
