@@ -14,3 +14,5 @@ description: 'Task: Trying to use DDD'
 ### 어려웠던 점
 
 * 이번에는 카트가 하나 뿐이어서 그나마 나았지만, 카트도 여러 개고 주문도 받는게 있었으면 힘들었을 것 같다.
+
+{% embed url="https://github.com/megaptera-kr/backend-survival-week08/pull/11" %}
