@@ -107,5 +107,3 @@ description: additional study - docker (2023. 4. 4. ~ 2023. 4. 6.)
         * 어떤 컨테이너도 사용하지 않는 네트워크는 삭제
         * \+ prune (중지된 모든 컨테이너 삭제, 미사용 이미지 삭제, 미사용 볼륨 삭제, 미사용 네트워크 삭제 가능)
       * &#x20;docker network create \[network name]
-
-\+ 필기 기반으로 한번 더 정리 예정
